@@ -1,0 +1,2 @@
+all:
+	mpic++ main.cpp Master.cpp Slave.cpp StarsAndCores.cpp Heating.c EvolveField.c InputDataManage.cpp FileManage.c comparison.c Deriv_func.c fft.c FindParameter_Newton.c gammafunc.c gaussrand.c LogScale.c Restart.cpp RK4solver.c SumScalarInRegion.c trilinear_interpol.c vectorfunctions.c -Wall -o MISFIT -O3
